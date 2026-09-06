@@ -1,0 +1,53 @@
+Qatar STEM Planning Knowledge Base
+
+This knowledge base supports the AI tool in generating STEM lesson plans that are curriculum-grounded, standards-based, and contextually relevant to Qatar.
+
+Core STEM lesson planning principles:
+
+1. Curriculum Alignment
+The STEM lesson plan should be clearly aligned with the science lesson topic, grade level, unit, and learning outcomes.
+
+2. Science Content Grounding
+The plan should be based primarily on the uploaded textbook lesson pages and should not generate unrelated or generic content.
+
+3. STEM Integration
+The plan should explicitly integrate Science, Technology, Engineering, and Mathematics in a meaningful way.
+
+4. Engineering Design Process
+The plan should include an engineering design challenge or design-thinking process where appropriate:
+Ask, Imagine, Plan, Create, Test, Improve.
+
+5. Inquiry-Based Learning
+The lesson should encourage students to ask questions, investigate, analyze evidence, and explain their reasoning.
+
+6. Problem-Based Learning
+The lesson should be organized around a real-world problem, task, or challenge.
+
+7. Local Qatar Context
+Where appropriate, the lesson should connect to Qatar contexts such as water, energy, sustainability, desert environment, marine environment, food security, transportation, recycling, or health.
+
+8. Sustainable Development Goals
+Where relevant, the plan should connect to selected SDGs such as:
+SDG 3 Good Health and Well-being
+SDG 4 Quality Education
+SDG 6 Clean Water and Sanitation
+SDG 7 Affordable and Clean Energy
+SDG 11 Sustainable Cities and Communities
+SDG 12 Responsible Consumption and Production
+SDG 13 Climate Action
+SDG 14 Life Below Water
+
+9. Assessment
+The plan should include formative and summative assessment, including clear criteria or a rubric.
+
+10. Differentiation
+The plan should include support for struggling students and extension for high-achieving students.
+
+11. Resources and Safety
+The plan should identify required materials, available resources, classroom constraints, safety considerations, and time management.
+
+12. Teacher Creative Adaptation
+The teacher should be able to adapt the AI-generated draft based on student needs, classroom realities, available resources, and professional judgment.
+
+13. Quality Evaluation
+The tool should evaluate the plan using a standards-based rubric and provide an overall quality score, sub-scores, strengths, weaknesses, and improvement suggestions.
