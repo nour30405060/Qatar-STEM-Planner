@@ -90,32 +90,29 @@ def load_pdf_file(path):
 
 def load_knowledge_base():
     """
-    Load all .txt and .pdf files from knowledge_base folder.
+    Load all .txt, .md, and .pdf files from knowledge_base folder and subfolders.
     """
     kb_folder = Path("knowledge_base")
     knowledge_text = ""
+    loaded_files = []
 
     if not kb_folder.exists():
         return "", []
 
-    loaded_files = []
-
-    for file_path in kb_folder.iterdir():
-        if file_path.suffix.lower() == ".txt":
+    for file_path in kb_folder.rglob("*"):
+        if file_path.is_file() and file_path.suffix.lower() in [".txt", ".md"]:
             content = load_text_file(file_path)
             if content:
                 knowledge_text += f"\n\n--- Source: {file_path.name} ---\n{content}"
-                loaded_files.append(file_path.name)
+                loaded_files.append(str(file_path))
 
-        elif file_path.suffix.lower() == ".pdf":
+        elif file_path.is_file() and file_path.suffix.lower() == ".pdf":
             content = load_pdf_file(file_path)
             if content:
                 knowledge_text += f"\n\n--- Source: {file_path.name} ---\n{content}"
-                loaded_files.append(file_path.name)
+                loaded_files.append(str(file_path))
 
     return knowledge_text.strip(), loaded_files
-
-
 def load_rubric():
     """
     Load STEM lesson plan rubric.
